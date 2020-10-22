@@ -1,0 +1,31 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "Monorepo that contains various code that is used throughout my home",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --port 2020 --hmr-port 8080",
+    "watch": "parcel watch src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanskomer/home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanskomer/home/issues"
+  },
+  "homepage": "https://github.com/jordanskomer/home#readme",
+  "devDependencies": {
+    "@types/react-dom": "^16.9.8",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@primer/components": "^20.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0"
+  }
+}
